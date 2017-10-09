@@ -74,6 +74,13 @@ namespace MvcIdentityAdapt.Controllers
                     }
                 }
             }
+
+            model.ApplicationRoles = roleManager.Roles.Select(r => new SelectListItem
+            {
+                Text = r.Name,
+                Value = r.Id
+            }).ToList();
+
             return View(model);
         }
 

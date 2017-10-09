@@ -28,8 +28,9 @@
             <label asp-for="ApplicationRoleId" class="control-label col-sm-3"></label>
             <div class="col-sm-8">
                 <select asp-for="ApplicationRoleId" asp-items="@Model.ApplicationRoles" class="form-control">
-                    <option>Please select</option>
+                    <option value="" hidden disabled selected>Please select</option>
                 </select>
+                <span asp-validation-for="ApplicationRoleId">Select a Role</span>
             </div>
         </div>
 

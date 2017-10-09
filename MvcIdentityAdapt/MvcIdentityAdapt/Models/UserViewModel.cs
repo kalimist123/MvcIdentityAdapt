@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace MvcIdentityAdapt.Models
@@ -26,7 +27,8 @@ namespace MvcIdentityAdapt.Models
         public string Email { get; set; }
        
         public List<SelectListItem> ApplicationRoles { get; set; }
-        [Required]
+
+        [BindRequired]
         [Display(Name = "Role")]
         public string ApplicationRoleId { get; set; }
     }
