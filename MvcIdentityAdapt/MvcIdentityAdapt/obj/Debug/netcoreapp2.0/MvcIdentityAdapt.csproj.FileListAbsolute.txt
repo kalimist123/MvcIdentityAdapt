@@ -10,3 +10,15 @@ e:\projects\personal\MvcIdentityAdapt\MvcIdentityAdapt\obj\Debug\netcoreapp2.0\M
 e:\projects\personal\MvcIdentityAdapt\MvcIdentityAdapt\obj\Debug\netcoreapp2.0\MvcIdentityAdapt.AssemblyInfo.cs
 e:\projects\personal\MvcIdentityAdapt\MvcIdentityAdapt\obj\Debug\netcoreapp2.0\MvcIdentityAdapt.dll
 e:\projects\personal\MvcIdentityAdapt\MvcIdentityAdapt\obj\Debug\netcoreapp2.0\MvcIdentityAdapt.pdb
+E:\Projects\MvcIdentityAdapt\MvcIdentityAdapt\MvcIdentityAdapt\bin\Debug\netcoreapp2.0\MvcIdentityAdapt.deps.json
+E:\Projects\MvcIdentityAdapt\MvcIdentityAdapt\MvcIdentityAdapt\bin\Debug\netcoreapp2.0\MvcIdentityAdapt.runtimeconfig.json
+E:\Projects\MvcIdentityAdapt\MvcIdentityAdapt\MvcIdentityAdapt\bin\Debug\netcoreapp2.0\MvcIdentityAdapt.runtimeconfig.dev.json
+E:\Projects\MvcIdentityAdapt\MvcIdentityAdapt\MvcIdentityAdapt\bin\Debug\netcoreapp2.0\MvcIdentityAdapt.dll
+E:\Projects\MvcIdentityAdapt\MvcIdentityAdapt\MvcIdentityAdapt\bin\Debug\netcoreapp2.0\MvcIdentityAdapt.pdb
+E:\Projects\MvcIdentityAdapt\MvcIdentityAdapt\MvcIdentityAdapt\obj\Debug\netcoreapp2.0\MvcIdentityAdapt.csprojResolveAssemblyReference.cache
+E:\Projects\MvcIdentityAdapt\MvcIdentityAdapt\MvcIdentityAdapt\obj\Debug\netcoreapp2.0\MvcIdentityAdapt.csproj.CoreCompileInputs.cache
+E:\Projects\MvcIdentityAdapt\MvcIdentityAdapt\MvcIdentityAdapt\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+E:\Projects\MvcIdentityAdapt\MvcIdentityAdapt\MvcIdentityAdapt\obj\Debug\netcoreapp2.0\MvcIdentityAdapt.AssemblyInfoInputs.cache
+E:\Projects\MvcIdentityAdapt\MvcIdentityAdapt\MvcIdentityAdapt\obj\Debug\netcoreapp2.0\MvcIdentityAdapt.AssemblyInfo.cs
+E:\Projects\MvcIdentityAdapt\MvcIdentityAdapt\MvcIdentityAdapt\obj\Debug\netcoreapp2.0\MvcIdentityAdapt.dll
+E:\Projects\MvcIdentityAdapt\MvcIdentityAdapt\MvcIdentityAdapt\obj\Debug\netcoreapp2.0\MvcIdentityAdapt.pdb

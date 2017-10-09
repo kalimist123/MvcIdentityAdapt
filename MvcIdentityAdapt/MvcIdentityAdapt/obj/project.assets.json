@@ -13125,11 +13125,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "E:\\Projects\\Personal\\MvcIdentityAdapt\\MvcIdentityAdapt\\MvcIdentityAdapt.csproj",
+      "projectUniqueName": "E:\\Projects\\MvcIdentityAdapt\\MvcIdentityAdapt\\MvcIdentityAdapt\\MvcIdentityAdapt.csproj",
       "projectName": "MvcIdentityAdapt",
-      "projectPath": "E:\\Projects\\Personal\\MvcIdentityAdapt\\MvcIdentityAdapt\\MvcIdentityAdapt.csproj",
+      "projectPath": "E:\\Projects\\MvcIdentityAdapt\\MvcIdentityAdapt\\MvcIdentityAdapt\\MvcIdentityAdapt.csproj",
       "packagesPath": "C:\\Users\\michael.lennon\\.nuget\\packages\\",
-      "outputPath": "E:\\Projects\\Personal\\MvcIdentityAdapt\\MvcIdentityAdapt\\obj\\",
+      "outputPath": "E:\\Projects\\MvcIdentityAdapt\\MvcIdentityAdapt\\MvcIdentityAdapt\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
