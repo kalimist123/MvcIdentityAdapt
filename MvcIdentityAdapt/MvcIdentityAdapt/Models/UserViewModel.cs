@@ -24,8 +24,9 @@ namespace MvcIdentityAdapt.Models
         [Required]
         [EmailAddress]
         public string Email { get; set; }
-        [Required]
+       
         public List<SelectListItem> ApplicationRoles { get; set; }
+        [Required]
         [Display(Name = "Role")]
         public string ApplicationRoleId { get; set; }
     }
