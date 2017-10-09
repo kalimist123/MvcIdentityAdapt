@@ -1,0 +1,42 @@
+﻿@model IEnumerable<UserListViewModel>  
+@using MvcIdentityAdapt.Models  
+ 
+
+<div class="panel panel-primary">  
+    <div class="panel-heading panel-head">Users</div>  
+    <div class="panel-body">  
+        <div class="btn-group">  
+            <a id="AddUser"  asp-action="AddUser"  class="btn btn-primary">  
+                <i class="glyphicon glyphicon-plus"></i>  Add User  
+            </a>  
+        </div>  
+ 
+        <table class="table table-bordered table-striped table-condensed">  
+            <thead class="thead-inverse">
+            <tr>  
+                <th>Name</th>  
+                <th>Email</th>                     
+                <th>Action</th>  
+            </tr>  
+            </thead>  
+            <tbody>  
+            @foreach (var item in Model)  
+            {  
+                <tr>  
+                    <td>@item.Name</td>  
+                    <td>@item.Email</td>                          
+                    <td>  
+                        <a id="editUserModal"  asp-action="EditUser" asp-route-id="@item.Id"   
+                           class="btn btn-info">  
+                            <i class="glyphicon glyphicon-pencil"></i>  Edit  
+                        </a>  
+                        <a id="deleteUserModal"  asp-action="DeleteUser" asp-route-id="@item.Id"  class="btn btn-danger">  
+                            <i class="glyphicon glyphicon-trash"></i>  Delete  
+                        </a>  
+                    </td>  
+                </tr>  
+            }  
+            </tbody>  
+        </table>  
+    </div>  
+</div>  
