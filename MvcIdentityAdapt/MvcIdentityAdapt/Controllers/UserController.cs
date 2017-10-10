@@ -11,7 +11,7 @@ using MvcIdentityAdapt.Models;
 namespace MvcIdentityAdapt.Controllers
 {
     [Authorize(Roles = "Admin")]
-    public class UserController : Controller
+    public class UserController : BaseController
     {
         private readonly UserManager<ApplicationUser> userManager;
         private readonly RoleManager<ApplicationRole> roleManager;
@@ -75,6 +75,9 @@ namespace MvcIdentityAdapt.Controllers
                 }
             }
 
+            ReplaceModelStateKeyMessage("ApplicationRoleId", "property was not provided",  "provide a Role");
+
+
             model.ApplicationRoles = roleManager.Roles.Select(r => new SelectListItem
             {
                 Text = r.Name,
@@ -83,6 +86,8 @@ namespace MvcIdentityAdapt.Controllers
 
             return View(model);
         }
+
+
 
         [HttpGet]
         public async Task<IActionResult> EditUser(string id)
